@@ -1,0 +1,1 @@
+youtube-dl --format  "bestaudio" --verbose --force-ipv4 --ignore-errors --no-continue --no-overwrites --download-archive archive.log --add-metadata --write-description --write-info-json --write-thumbnail --embed-thumbnail --output "%(uploader)s/%(uploader)s - %(upload_date)s - %(title)s/%(uploader)s - %(upload_date)s - %(title)s.%(ext)s" --batch-file "a.txt"
